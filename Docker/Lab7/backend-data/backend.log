@@ -1,0 +1,14 @@
+2026-10-24 22:23:22,711 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.3:5000
+2026-10-24 22:23:22,711 INFO [33mPress CTRL+C to quit[0m
+2026-10-24 22:33:36,702 INFO 172.29.0.1 - - [24/Oct/2026 22:33:36] "[33mGET / HTTP/1.1[0m" 404 -
+2026-10-24 22:33:42,904 INFO 172.29.0.1 - - [24/Oct/2026 22:33:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-24 22:48:22,677 INFO Received request to retrieve messages
+2026-10-24 22:48:22,680 INFO 172.28.0.2 - - [24/Oct/2026 22:48:22] "GET /messages HTTP/1.1" 200 -
+2026-10-24 22:48:31,434 INFO Message created successfully: HI, there is first message
+2026-10-24 22:48:31,463 INFO Notification sent successfully
+2026-10-24 22:48:31,465 INFO 172.28.0.2 - - [24/Oct/2026 22:48:31] "[35m[1mPOST /messages HTTP/1.1[0m" 201 -
+2026-10-24 22:48:31,504 INFO Received request to retrieve messages
+2026-10-24 22:48:31,505 INFO 172.28.0.2 - - [24/Oct/2026 22:48:31] "GET /messages HTTP/1.1" 200 -
