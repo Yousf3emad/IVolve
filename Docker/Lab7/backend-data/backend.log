@@ -12,3 +12,10 @@
 2026-10-24 22:48:31,465 INFO 172.28.0.2 - - [24/Oct/2026 22:48:31] "[35m[1mPOST /messages HTTP/1.1[0m" 201 -
 2026-10-24 22:48:31,504 INFO Received request to retrieve messages
 2026-10-24 22:48:31,505 INFO 172.28.0.2 - - [24/Oct/2026 22:48:31] "GET /messages HTTP/1.1" 200 -
+2026-10-24 23:00:32,981 INFO Received request to retrieve messages
+2026-10-24 23:00:32,982 INFO 172.28.0.2 - - [24/Oct/2026 23:00:32] "GET /messages HTTP/1.1" 200 -
+2026-10-24 23:01:04,020 INFO Message created successfully: Thanks, Ivolve
+2026-10-24 23:01:04,025 INFO Notification sent successfully
+2026-10-24 23:01:04,025 INFO 172.28.0.2 - - [24/Oct/2026 23:01:04] "[35m[1mPOST /messages HTTP/1.1[0m" 201 -
+2026-10-24 23:01:04,051 INFO Received request to retrieve messages
+2026-10-24 23:01:04,051 INFO 172.28.0.2 - - [24/Oct/2026 23:01:04] "GET /messages HTTP/1.1" 200 -
